@@ -1,0 +1,67 @@
+# Blender MTL File: 'Boomerang_chair.blend'
+# Material Count: 6
+
+newmtl BoomerangChair_BlackSteel
+Ns 143.999983
+Ka 0.859091 0.859091 0.859091
+Kd 0.003104 0.003104 0.003104
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+
+newmtl BoomerangChair_ChairlegSteel
+Ns 54.223169
+Ka 1.000000 1.000000 1.000000
+Kd 0.409956 0.232321 0.070234
+Ks 0.472727 0.472727 0.472727
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump D:\\01 Trabajos\\2020\\03 Models\\03 Boomerang_chair\\Textures\\Metal007\\Metal007_2K_Normal.png
+map_Kd D:\\01 Trabajos\\2020\\03 Models\\03 Boomerang_chair\\Textures\\Metal007\\Metal007_2K_Color.png
+refl D:\\01 Trabajos\\2020\\03 Models\\03 Boomerang_chair\\Textures\\Metal007\\Metal007_2K_Roughness.png
+
+newmtl BoomerangChair_Chairlegcap
+Ns 2.250001
+Ka 1.000000 1.000000 1.000000
+Kd 0.009608 0.009085 0.009085
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl BoomerangChair_Fabric01
+Ns 31.258265
+Ka 1.000000 1.000000 1.000000
+Kd 0.487539 0.365809 0.302881
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl BoomerangChair_Fabric02
+Ns 31.258265
+Ka 1.000000 1.000000 1.000000
+Kd 0.487539 0.365809 0.302881
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl BoomerangChair_Wood
+Ns 323.999994
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump -bm 0.100000 D:\\01 Trabajos\\2020\\03 Models\\03 Boomerang_chair\\Textures\\Wood\\Wood009_2K_Normal.jpg
+map_Kd D:\\01 Trabajos\\2020\\03 Models\\03 Boomerang_chair\\Textures\\Wood\\Wood009_2K_Color.jpg
