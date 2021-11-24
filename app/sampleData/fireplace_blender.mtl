@@ -1,0 +1,13 @@
+# Blender MTL File: 'fireplace.blend'
+# Material Count: 1
+
+newmtl Standardmaterial
+Ns 465.878306
+Ka 0.186364 0.186364 0.186364
+Kd 0.062745 0.062745 0.062745
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd maps\\Marble014_2K_Color.jpg

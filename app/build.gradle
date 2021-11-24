@@ -37,6 +37,7 @@ dependencies {
     implementation 'com.android.support:design:28.0.0'
     implementation 'com.android.support:cardview-v7:28.0.0'
     implementation 'com.google.ar.sceneform:assets:1.15.0'
+    implementation 'com.squareup.picasso:picasso:2.71828' //picasso
 }
 
 
@@ -84,4 +85,65 @@ sceneform.asset('sampleData/mchair.obj',
         'default',
         'sampleData/mchair.sfa',
         'src/main/assets/mchair')
+
+sceneform.asset('sampleData/Boomerang_chair.obj',
+        'default',
+        'sampleData/Boomerang_chair.sfa',
+        'src/main/assets/Boomerang_chair')
+
+sceneform.asset('sampleData/CouchWilliam.obj',
+        'default',
+        'sampleData/CouchWilliam.sfa',
+        'src/main/assets/CouchWilliam')
+
+sceneform.asset('sampleData/desklamp.obj',
+        'default',
+        'sampleData/desklamp.sfa',
+        'src/main/assets/desklamp')
+
+sceneform.asset('sampleData/Jimibox.obj',
+        'default',
+        'sampleData/Jimibox.sfa',
+        'src/main/assets/Jimibox')
+
+sceneform.asset('sampleData/bureau3.obj',
+        'default',
+        'sampleData/bureau3.sfa',
+        'src/main/assets/bureau3')
+
+sceneform.asset('sampleData/clock2.obj',
+        'default',
+        'sampleData/clock2.sfa',
+        'src/main/assets/clock2')
+
+sceneform.asset('sampleData/frame3VerticalSummerPhotos.obj',
+        'default',
+        'sampleData/frame3VerticalSummerPhotos.sfa',
+        'src/main/assets/frame3VerticalSummerPhotos')
+
+sceneform.asset('sampleData/MontBlancFrame.obj',
+        'default',
+        'sampleData/MontBlancFrame.sfa',
+        'src/main/assets/MontBlancFrame')
+
+sceneform.asset('sampleData/table_wood_and_iron.obj',
+        'default',
+        'sampleData/table_wood_and_iron.sfa',
+        'src/main/assets/table_wood_and_iron')
+
+sceneform.asset('sampleData/office-chair.obj',
+        'default',
+        'sampleData/office-chair.sfa',
+        'src/main/assets/office-chair')
+
+sceneform.asset('sampleData/rocking_chair.obj',
+        'default',
+        'sampleData/rocking_chair.sfa',
+        'src/main/assets/rocking_chair')
+
+sceneform.asset('sampleData/mobile9080W.obj',
+        'default',
+        'sampleData/mobile9080W.sfa',
+        'src/main/assets/mobile9080W')
+
 

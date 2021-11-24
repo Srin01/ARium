@@ -1,0 +1,68 @@
+{
+  materials: [
+    {
+      name: 'Colour',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.18431400000000001,
+            0.18431400000000001,
+            0.18431400000000001,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.175757,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Trim',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.40784300000000001,
+            0.40784300000000001,
+            0.40784300000000001,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.175757,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampleData/rocking_chair.obj',
+    name: 'rocking_chair',
+    recenter: 'root',
+    scale: 0.015384999999999999,
+  },
+  version: '0.54:2',
+}
