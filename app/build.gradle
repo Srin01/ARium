@@ -146,4 +146,15 @@ sceneform.asset('sampleData/mobile9080W.obj',
         'sampleData/mobile9080W.sfa',
         'src/main/assets/mobile9080W')
 
+sceneform.asset('sampleData/Bookcase_WoodenBlackandBrown.obj',
+        'default',
+        'sampleData/Bookcase_WoodenBlackandBrown.sfa',
+        'src/main/assets/Bookcase_WoodenBlackandBrown')
+
+sceneform.asset('sampleData/Chatham_table.obj',
+        'default',
+        'sampleData/Chatham_table.sfa',
+        'src/main/assets/Chatham_table')
+
+
 

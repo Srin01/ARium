@@ -23,6 +23,8 @@ public class FurnitureExpert
         furnitures.add(new Furniture(R.drawable.rockingchairjpg, "Rocking Chair", "rocking_chair.sfb","3,700"));
         furnitures.add(new Furniture(R.drawable.bookcase, "Book Case", "mobile9080W.sfb","1,500"));
         furnitures.add(new Furniture(R.drawable.bookshelf, "Book Shelf", "model.sfb","5,200"));
+        furnitures.add(new Furniture(R.drawable.bookcase_woodenblackandbrown, "European Book Case", "Bookcase_WoodenBlackandBrown.sfb","5,900"));
+        furnitures.add(new Furniture(R.drawable.chatham_table, "Chatham Table", "Chatham_table.sfb","2,200"));
     }
 
     public static FurnitureExpert getInstance()
