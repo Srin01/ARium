@@ -18,11 +18,11 @@
         android:background="@color/colorAccent"
         android:layout_marginBottom="10dp">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="ARium"
-            android:textSize="25dp"
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="85dp"
+            android:src="@drawable/arium_logos_transparent"
+
             />
 
     </androidx.appcompat.widget.Toolbar>
