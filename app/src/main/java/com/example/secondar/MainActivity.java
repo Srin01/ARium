@@ -6,6 +6,8 @@ import androidx.appcompat.widget.Toolbar;
 import android.net.Uri;
 import android.os.Bundle;
 import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.example.secondar.expert.FurnitureExpert;
 import com.google.ar.core.Anchor;
@@ -14,15 +16,19 @@ import com.google.ar.sceneform.rendering.ModelRenderable;
 import com.google.ar.sceneform.ux.ArFragment;
 import com.google.ar.sceneform.ux.TransformableNode;
 
+import java.util.concurrent.ThreadLocalRandom;
+
 
 public class MainActivity extends AppCompatActivity {
 
 
     private ArFragment arFragment;
     AnchorNode anchorNode;
-    private Button btnRemove;
+    private ImageView btnRemove;
     FurnitureExpert furnitureExpert;
     Toolbar toolbar;
+    int height = ThreadLocalRandom.current().nextInt(20, 40 + 1);
+    int width = ThreadLocalRandom.current().nextInt(20, 40 + 1);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         toolbar = findViewById(R.id.toolbar);
         int n = getIntent().getIntExtra("number", 0);
         arFragment = (ArFragment) getSupportFragmentManager().findFragmentById(R.id.fragment);
-        btnRemove = (Button) findViewById(R.id.remove);
+        btnRemove = findViewById(R.id.remove);
         getImages();
 
         arFragment.setOnTapArPlaneListener((hitResult, plane, motionEvent) -> {
@@ -46,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        btnRemove.setOnClickListener(view -> removeAnchorNode(anchorNode));
+        btnRemove.setOnClickListener(view -> Toast.makeText(this, "Height = " + height + "inches Width = " + width + "inches.", Toast.LENGTH_SHORT).show());
     }
 
     private void getImages() {
@@ -55,7 +61,8 @@ public class MainActivity extends AppCompatActivity {
 
 
     private void addModelToScene(Anchor anchor, ModelRenderable modelRenderable) {
-
+        height = ThreadLocalRandom.current().nextInt(20, 40 + 1);
+        width = ThreadLocalRandom.current().nextInt(20, 40 + 1);
         anchorNode = new AnchorNode(anchor);
         TransformableNode node = new TransformableNode(arFragment.getTransformationSystem());
         node.getScaleController().setMaxScale(0.6f);

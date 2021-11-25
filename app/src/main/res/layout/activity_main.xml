@@ -29,18 +29,19 @@
         android:id="@+id/fragment"
         android:name="com.google.ar.sceneform.ux.ArFragment"/>
 
-    <Button
+    <ImageView
         android:id="@+id/remove"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="2px"
-        android:text="Remove"
+        android:text="Info"
         android:background="@color/colorPrimaryDark"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/toolbar"
-        />
+        android:src="@drawable/ic_baseline_info_24"
+        android:contentDescription="TODO" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
