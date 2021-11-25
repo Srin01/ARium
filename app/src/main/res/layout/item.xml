@@ -7,12 +7,26 @@
     android:padding="20dp"
     android:gravity="center">
 
-    <ImageView
-        android:id="@+id/item_image_gridView"
+<!--    <ImageView-->
+<!--        android:id="@+id/item_image_gridView"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:src="@drawable/ic_launcher_background"-->
+<!--        />-->
+    <androidx.cardview.widget.CardView
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:src="@drawable/ic_launcher_background"
-        />
+        android:layout_margin="5dp"
+        android:elevation="30dp">
+
+        <ImageView
+            android:id="@+id/item_image_gridView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_launcher_background"
+            android:scaleType="centerCrop"
+            />
+    </androidx.cardview.widget.CardView>
 
     <TextView
         android:id="@+id/item_name_gridView"

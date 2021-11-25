@@ -62,7 +62,7 @@ public class ItemsGridViewAdapter extends  BaseAdapter {
 
             eventImage.setImageResource(furniture.getImagePath());
             eventName.setText(furniture.getName());
-            eventPrice.setText("$" + furniture.getPrice());
+            eventPrice.setText("Rs " + furniture.getPrice());
             return view;
         }
 
